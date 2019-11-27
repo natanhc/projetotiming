@@ -1,0 +1,775 @@
+body{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 0;
+    border: 0; 
+    padding: 0;    
+
+}
+.home{
+    display: inline-flex;    
+    flex-direction: column;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* BLOCO I*/
+.bloco1{
+    width: 100%;
+    height: 90%;
+    background-image: url(img/city2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:  100px 200px 1000px 50px  #000000 inset;
+}
+.barra{
+    width: 100%;
+    padding: 5% 5% 0% 5%;
+    font-size: 130%;
+    color: #ffffff;
+}
+.barra > a{
+    padding: 0.3%;
+    text-decoration: none !important;
+    font-weight: 10%;
+    color: #ffffff;
+}
+.barra > a:hover{
+    background-color: rgba(70, 130, 180, 0.5);
+    padding: 0.3%;
+    border: 1px SOLID #0096ff;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    color: #0096ff;
+}
+.meio{
+    width: 50%;
+    align-content: center;
+    padding: 5% 5% 0% 5%;
+    font-size: 250%;
+    color: #ffffff;
+}
+.logo{
+    width: 10%;
+    margin:0 50% 0 10%;
+}
+.meio{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.meio > .chamada{
+    width: 75%;
+    margin: 0 auto;
+}
+.meio > a{
+    text-decoration: none !important;        
+    color: #ffffff;  
+    font-weight: bold;
+}
+.meio > a:hover{
+    text-decoration: none !important;
+    background-color: rgba(70, 130, 180, 0.5);
+    padding: 0.3%;
+    border: 1px SOLID #0096ff;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    color: #0096ff;    
+    font-weight: 100;
+}
+.meio > .clientes{
+    font-size: 40%;
+}
+.meio > img{
+    width: 12%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+/* BLOCO II*/
+.bloco2{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.bloco2 > .chamada{
+    text-align: center;
+    border: 10% solid gray;
+    padding: 0.5%;
+    background-color: #cbcbcb;
+    border-radius: 0px 0px 8px 8px;
+    width: 20%;
+    margin: 0 auto;
+    color: white;
+    text-shadow: 1px -1px #b4b4b4; 
+}
+.bloco2 > .texto{
+    width: 35%;    
+    height: 100%;
+    float: left;
+    margin: 3% 0 5% 15%;
+
+}
+.bloco2 > .imagem{
+    width: 40%;    
+    height: 100%;    
+    float: right;    
+    margin: 3% 0% 0% 0%;
+}
+.bloco2 > .texto > a{
+    text-decoration: none !important;
+    background-color: #1ab78a;
+    padding: 2%;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+.bloco2 > .texto > a:hover{
+    text-decoration: none !important;
+    background-color: #02da9d;
+    padding: 2%;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.bloco2 > .imagem > img{
+    width: 75%;
+}
+.bloco2 > .texto > h2{
+    font-family: 'Open Sans', sans-serif;
+}
+.bloco2 > .texto > h3{
+    font-size: 120%;
+    margin-bottom: 5%;
+}
+.bloco2 > .texto > h4{
+    border: 10% solid gray;
+    padding: 1% 5% 1% 5%;
+    background-color: #cbcbcb;
+    width: 60%;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    color: #ffffff;
+    text-shadow: 1px -1px #b4b4b4; 
+}
+.bloco2 > .texto > h5{
+    font-size: 120%;
+    text-align: justify;
+    margin-bottom: 3%;
+}
+.bloco2 > .texto > h5 > text{
+    color: #02da9d;
+    padding-left: 0.75%;
+    padding-right: 0.75%;
+    border: 2px solid;
+    border-radius: 150% ;
+    font-size: 10px;
+    margin-right: 2%;
+    margin-left: 5%;
+}
+
+
+/* BLOCO III*/
+.bloco3{
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: #efefef;
+}
+.bloco3 > .texto{
+    width: 35%;    
+    height: 100%;
+    float: right;
+    margin: 3% 10% 0% 0%;
+
+}
+.bloco3> .imagem{
+    width: 40%;    
+    height: 100%;    
+    float: left;  
+    margin: 3% 0 5% 15%;
+}
+.bloco3 > .texto > a{
+    width: 50%;
+    text-decoration: none !important;
+    background-color: #1ab78a;
+    padding: 2%;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.bloco3 > .texto > a:hover{
+    text-decoration: none !important;
+    background-color: #02da9d;
+    padding: 2%;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.bloco3 > .imagem > img{
+    width: 60%;
+}
+.bloco3 > .texto > h2{
+    font-family: 'Open Sans', sans-serif;
+}
+.bloco3 > .texto > h4{
+    border: 10% solid gray;
+    padding: 1% 5% 1% 5%;
+    background-color: #cbcbcb;
+    width: 60%;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    color: #ffffff;
+    text-shadow: 1px -1px #b4b4b4; 
+}
+.bloco3 > .texto > h5{
+    font-size: 120%;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+.bloco3 > .texto > h5 > text{
+    color: #02da9d;
+    padding-left: 0.75%;
+    padding-right: 0.75%;
+    border: 2px solid;
+    border-radius: 150% ;
+    font-size: 10px;
+    margin-right: 2%;
+    margin-left: 5%;
+}
+
+/* BLOCO IV*/
+.bloco4{
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.bloco4 > .texto{
+    width: 35%;    
+    height: 100%;
+    float: left;
+    margin: 3% 0 5% 15%;
+
+}
+.bloco4> .imagem{
+    width: 40%;    
+    height: 100%;    
+    float: right;    
+    margin: 3% 0% 0% 0%;
+}
+.bloco4 > .texto > a{
+    text-decoration: none !important;
+    background-color: #1ab78a;
+    padding: 2%;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+.bloco4 > .texto > a:hover{
+    text-decoration: none !important;
+    background-color: #02da9d;
+    padding: 2%;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.bloco4 > .imagem > img{
+    width: 50%;
+}
+.bloco4 > .texto > h2{
+    font-family: 'Open Sans', sans-serif;
+}
+.bloco4 > .texto > h4{
+    border: 10% solid gray;
+    padding: 1% 5% 1% 5%;
+    background-color: #cbcbcb;
+    width: 60%;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    color: #ffffff;
+    text-shadow: 1px -1px #b4b4b4; 
+}
+.bloco4 > .texto > h5{
+    font-size: 120%;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+/* BLOCO V*/
+.bloco5{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #efefef;
+    background-image: url(img/bg2.jpeg);
+    background-blend-mode: overlay;
+    background-size: cover;
+
+}
+.bloco5 > .chamada{
+    text-align: center;
+    border: 10% solid gray;
+    padding: 0.5%;
+    background-color: #cbcbcb;
+    border-radius: 0px 0px 8px 8px;
+    width: 20%;
+    margin: 0 auto;
+    color: white;
+    text-shadow: 1px -1px #b4b4b4; 
+}
+.bloco5 > img{
+    display: block;
+    width: 7.5%;
+    margin: 1% 0 1% 46.25% ;
+}
+.bloco5 > .texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.bloco5 > .texto > text{
+    display: inline-flex;
+    justify-content: center;
+    width: 20%;
+    margin: 0% 0% 5% 1% ;
+    background: #ffffff;
+    padding: 10px 10px 10px 10px;
+    font-size: 110%;
+    text-align: center;
+}
+
+
+.bloco5 > .contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    background: linear-gradient(to bottom, transparent 15%, #191a1e 10%);
+}
+.bloco5 > .contato > .endereco{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    width: 20%;
+    margin: 3% 1% 0% 0% ;
+    color: #848484;
+}
+.bloco5 > .contato > .endereco > img{
+    width: 50%;    
+    margin: 0% 0% 10% 0;
+}
+
+
+/*FORMULÁRIO DE EMAIL*/
+.bloco5 > .contato > .formulario{
+    display: flex;
+    flex-direction: column;
+    width: 41%;
+    height: 30%;
+    margin: 0% 0% 5% 1% ;
+    background: rgba(23, 98, 154, 0.5);
+    padding: 10px 10px 10px 10px;
+    border: 1px SOLID #0096ff;
+}
+.formulario > h3{
+    text-align: center;
+    color: #0181ff;
+    font-size: 250%;
+    margin: 0 0 5% 0;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 180px;
+    text-align: top;
+    color: #cbcbcb;
+    font-weight: 100;
+    margin: 0% 0% 0% 5% ;
+}
+.ddd{
+    width: 55px;
+}
+.fone{
+    width:  220px;
+}
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 280px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+.button {
+    /* Para posicionar os botões para a mesma posição dos campos de texto */
+    padding-left: 210px; /* mesmo tamanho que os elementos do tipo label */
+    border-radius: 10px;
+    box-decoration-break: none;
+}
+.rodape{
+    background: #191a1e;
+    text-align: center;
+    color: #848484;
+}
+
+
+
+
+@media only screen and (max-width: 812px) {
+    .home{
+        display: flex;    
+        flex-direction: column;
+        float: right;
+        position: absolute;
+    }
+    .bloco1{
+        width: auto;
+        height: 90%;
+        background-image: url(img/city.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow:  100px 200px 1000px 50px  #000000 inset;
+    }
+        .barra{
+            display: flex;
+            flex-direction: column;
+        }
+        .logo{
+            width: 50%;
+            margin: 10% auto ;
+        }
+        .barra > text{
+            display: none;
+        }
+        .barra > a{
+            display: flex;
+            justify-content: center;
+            background-color: rgba(70, 130, 180, 0.3);
+            border: 0.5px SOLID #0096ff;
+            border-radius: 8px;
+            margin: 5px auto;
+            width: 50%;
+            font-size: 200%;
+            padding: 3%;
+        }
+        .barra > a:hover{
+            margin: 5px auto;
+            width: 50%;
+            background-color: rgba(70, 130, 180, 0.5);
+            border: 0.5px SOLID #0096ff;
+            -moz-border-radius: 8px;
+            -webkit-border-radius: 8px;
+            border-radius: 8px;
+            color: #0096ff;
+            padding: 3%;
+        }    
+        .meio{
+            width: 90%;
+            align-content: center;
+            padding: 5% 0% 0% 0%;
+            font-size: 300%;
+            color: #ffffff;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .meio > .chamada{
+            font-size: 120%;
+            width: 90%;
+            margin: 0 auto;
+        }
+        .meio > a{
+            display: flex;
+            justify-content: center; 
+            background-color: rgba(70, 130, 180, 0.3);
+            border: 0.5px SOLID #0096ff;
+            border-radius: 8px;    
+            margin: 5px auto;
+            width: 75%;
+            padding: 3%;
+            font-size: 100%;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .meio > a:hover{
+            display: flex;
+            justify-content: center; 
+            background-color: rgba(70, 130, 180, 0.3);
+            margin: 5px auto;
+            width: 75%;
+            padding: 3%;
+            font-size: 100%;
+            color: #ffffff;
+            font-weight: bold;
+            border: 0.5px SOLID #0096ff;
+        }
+        .meio > .clientes{
+        display: none;
+        font-size: 40%;
+    }
+        .meio > img{
+            display: none;
+        }
+    
+    .bloco2{
+        width: auto;
+        height: auto;
+        margin: 0 0 7% 0;
+        display: flex;
+        flex-direction: column;
+        position: static;
+    } 
+        .bloco2 > .texto{
+            width: auto;    
+            height: 100%;
+            float: left;
+            margin: 5% 10% 0% 10%;
+        }
+        .bloco2 > .imagem{
+            display: none;
+        }
+
+    .bloco3{
+        width: auto;
+        height: auto;    
+        display: flex;
+        flex-direction: column;        ,
+        position: static;        
+        margin: 0 0 0% 0;
+        padding-bottom: 5%;
+    }
+        .bloco3 > .texto{
+            display: flex;
+            flex-direction: column;
+            width: auto;    
+            height: auto;
+            margin: 5% 10% 0% 10%;
+            background: #efefef;
+        }
+        .bloco3> .imagem{
+            display: none;
+        }
+    
+    .bloco4{
+        width: auto;
+        height: auto;
+        margin: 0 0 10% 0;
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
+        .bloco4 > .texto{
+            width: auto;    
+            height: auto;
+            float: left;
+            margin: 5% 10% 0% 10%;
+        }
+        .bloco4> .imagem{
+            display: none;
+        }
+    
+    .bloco5 {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .bloco5 > .texto > text{
+        display: inline-flex;
+        justify-content: center;
+        width: 30%;
+        margin: 0% 0% 5% 1% ;
+        background: #ffffff;
+        padding: 10px 10px 10px 10px;
+    }
+    .bloco5 > .contato {
+        display: flex;
+        flex-direction: row;
+    }
+    /*FORMULÁRIO DE EMAIL*/
+    .bloco5 > .contato > .formulario{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0% 3% 2% 2%;
+        order: 2;
+    }
+    .bloco5 > .contato > .endereco{      
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        float: right;
+        order: 3;
+}
+}
+
+@media only screen and (max-width: 414px) {
+    .home{
+        display: flex;    
+        flex-direction: column;
+        float: right;
+        position: absolute;
+    }
+    .bloco1{
+        position: relative;
+        width: auto;
+        height: auto;    
+        background-size: cover;
+    }
+        .logo{
+            width: 100%;
+            margin: 10% auto ;
+        }
+        .barra{
+            width: 50%;
+            margin: 0 auto;
+        }
+        .meio{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .barra > a{
+            width: 100%;
+            font-size: 90%;
+        }
+        .meio > .chamada{
+            font-size: 50%;
+            width: 70%;
+            margin: 0 auto;
+        }
+        .meio > a{
+            width: 50%;
+            font-size: 50%;
+            margin: 0 auto;
+        }
+    
+    .bloco2{
+        width: 100%;
+    } 
+        .bloco2 > .texto{
+            width: auto;    
+            height: 100%;
+            float: left;
+            margin: 5% 10% 0% 10%;
+        }
+        .bloco2 > .imagem{
+            display: none;
+        }
+
+    .bloco3{
+        width: auto;
+        height: auto;    
+        display: flex;
+        flex-direction: column;        ,
+        position: static;        
+        margin: 0 0 0% 0;
+        padding-bottom: 5%;
+    }
+        .bloco3 > .texto{
+            width: auto;    
+            height: auto;
+            float: left;
+            margin: 5% 10% 0% 10%;
+            background: #efefef;
+        }
+        .bloco3> .imagem{
+            display: none;
+        }
+    
+    .bloco4{
+        width: auto;
+        height: auto;
+        margin: 0 0 10% 0;
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
+        .bloco4 > .texto{
+            width: auto;    
+            height: auto;
+            float: left;
+            margin: 5% 10% 0% 10%;
+        }
+        .bloco4> .imagem{
+            display: none;
+        }
+    
+    .bloco5 {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .bloco5 > .chamada{
+        width: auto;
+    }
+    .bloco5 > .texto{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: 0 auto;
+    }
+    .bloco5 > .texto > text{
+        display: inline-flex;
+        justify-content: center;
+        width: auto;
+        margin: 0% 0% 5% 1% ;
+        background: #ffffff;
+        padding: 10px 10px 10px 10px;
+    }
+    .bloco5 > .contato {
+        display: flex;
+        flex-direction: column;
+    }
+    .bloco5 > .contato > .formulario{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        align-content: center;    
+    }
+    .bloco5 > .contato > .endereco{      
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;  
+        font-size: 150%;
+        padding: 10%;    
+    }    
+}
